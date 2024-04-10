@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* global styles */
+
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.sm-gap {
+  gap: 5px;
+}
+
+.bold-text {
+  font-weight: 600;
+}
+
+.gray {
+  color: rgb(94, 94, 94);
+}
+
+.sm-margin-top {
+  margin-top: 10px;
+}
+
+/* card styles */
+
+.card {
+  height: 400px;
+  width: 316px;
+  border-radius: 3%;
+}
+
+.top-image {
+  width: 316px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 3%;
+}
+
+.icon {
+  height: 12px;
+}
